@@ -20,5 +20,3 @@ links = {"2015 year data" : "/download",
 
 def render_index (image = None):
     return render_template("index.html", links=links, image = (image, image), code=time.time())
-
-app.run()
